@@ -1,0 +1,526 @@
+ 
+ * {
+    font-family: "Cabin", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+
+ body {
+    color: #231651;
+
+ }
+
+ li {
+    list-style: none;
+ }
+ a {
+    text-decoration: none;
+ }
+
+ .section-style {
+
+    padding: 10px 150px;
+
+
+ }
+
+ 
+ @media only screen and (max-width: 1200px) {
+  
+
+     .section-style {
+        padding: 10px 10px;
+     }
+  }
+
+  .main-nav {
+
+    background-color: aliceblue;
+  top: 0;
+width: 100%;
+max-height: 100px;
+  left: 0;
+  position: fixed;
+
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.75);
+   
+}
+
+  .main-nav .nav-item {
+    display: flex;
+   align-items: center; 
+   gap: 35px
+   ;
+  }
+
+  .main-nav .language {
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 7px 14px;
+  }
+
+  .responsive-navbar {
+    display: none;
+  }
+
+
+
+  
+    
+ @media only screen and (max-width: 960px) {
+
+    .main-nav {
+        display: none;
+       }
+   .responsive-navbar {
+    display: flex;
+   }
+}
+
+/* HEADER-CSS */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(https://rikkei.edu.vn/wp-content/uploads/2024/01/bg-home1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    position: relative;
+    height: 558px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+    
+@media only screen and (max-width: 960px) {
+
+
+    header {
+        flex-direction: column;
+        
+    }
+     header .layout-section {
+        height: 400px;
+     }
+
+     header .hero-img {
+        width: 100%;
+     }
+ 
+
+     header .hero-section {
+         top: 100px;
+         left: 100px;
+     }
+}
+
+
+header .hero-img {
+    width: 600px;
+  
+}
+
+header .hero-section h2 {
+    margin-bottom: 20px;
+}
+
+
+header .hero-section ul li {
+    margin-bottom: 15px;
+}
+
+.main-item {
+    display: flex;
+    justify-content: center;
+    background-color: #f8f7fa;
+
+}
+
+
+
+.main-item-list {
+    margin: 10px;
+    width: 300px;
+    height: 180px;
+    box-shadow:  0px 4px 12px 0px rgba(35, 22, 81, 0.08);
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   position: relative;
+   top: -50px;
+
+}
+
+.main-item-list:hover {
+   
+        /* top: -20px; */
+        position: relative;
+
+       top: -100px;
+}
+
+.main-item-list h3 {
+    color: #bc2228;
+}
+
+.video-div {
+    display: flex;
+    justify-content: center;
+
+    background-color: #f8f7fa;
+    padding-bottom: 150px;
+
+}
+
+.video-div .video-div-item {
+width: 40%;
+}
+
+.video-div .video-div-item h2 {
+
+    margin-top: 100px;
+    margin-bottom: 15px ;
+    display: flex;
+    align-self: center;
+    color: #bc2228;
+}
+
+
+.video-div .video-div-item p {
+
+   width: 500px;
+}
+
+.div-main-icon {
+    margin: 60px 200px;
+
+
+}
+
+
+.div-main-icon h2 {
+
+    position: relative;
+    margin: 20px 0px;
+    color: palevioletred;
+    left: -15px ;
+}
+
+
+.div-main-icon h3 {
+
+   
+    margin: 10px 0px;
+    color: palevioletred;
+}
+.div-icon {
+    width: 50px;
+    height: 50px;
+  background-color: palevioletred;
+}
+
+
+.list-style {
+    width: 10px;
+    height: 10px;
+    background-color: palevioletred;
+    border-radius: 10px;
+}
+
+.div-table {
+
+
+     padding: 70px 0px;
+
+    background-color: #f8f7fa;
+}
+
+
+.div-table li {
+ 
+    margin: 10px 0px;
+}
+
+
+
+
+
+.div-table h2 {
+ 
+    color: #bc2228;
+    padding-left: 300px;
+    padding-bottom: 10px;
+}
+.div-table h3 {
+ 
+    color: #bc2228;
+    margin: 10px 0px;
+}
+
+.div-rikkei-story {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+    gap: 50px;
+}
+
+.div-rikkei-story .div-rikkei-story-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 30%;
+}
+
+
+.div-rikkei-story .div-rikkei-story-2 {
+
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 15px;
+}
+
+
+.div-rikkei-story .div-rikkei-story-1 h2 {
+    color: #bc2228;
+
+    padding: 20px;
+
+}
+
+.div-seo-img {
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+     
+}
+
+
+
+.div-seo-img .div-seo-img-item  {
+    margin-top: 50px;
+border: 1px solid #c1bcd1;
+text-align: center;
+padding: 15px;
+       
+} 
+
+
+
+
+
+.div-seo-img .div-seo-img-item:hover  {
+    transform: translate(0px,-50px);
+
+    color: white;
+    
+    background-color: #231651;
+} 
+
+    
+
+
+
+
+.div-seo-img .div-seo-img-item p {
+
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+.div-seo-img .div-seo-img-item div span {
+
+    border:  1px solid #C1BCD1;
+    background-color: #F8F7FA;
+    padding: 2px 5px;
+    display: inline-block;
+    width: auto;
+    color: #231651;
+    margin-bottom: 15px;
+    border-radius: 5px;
+
+}
+
+
+.div-seo-img .div-seo-img-item div span {
+
+    border:  1px solid #C1BCD1;
+    background-color: #F8F7FA;
+    padding: 2px 5px;
+    display: inline-block;
+    width: auto;
+    color: #231651;
+    margin-bottom: 15px;
+    border-radius: 5px;
+
+}
+
+.div-seo-img .div-seo-img-item h3 {
+
+    margin: 15px 0px;
+}
+
+
+
+
+.div-seo-img .div-seo-img-item img {
+
+    width: 228px;
+    border: 1px solid #efedf5;
+}
+
+
+.div-form-main {
+    display: flex;
+    justify-content: center;
+      gap: 160px
+      ;
+   align-items: center;
+    background-color:#32275f;
+padding: 50px 0px;
+
+}
+
+.div-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+    ;
+}
+
+.div-form-background {
+    border-radius: 5px;
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+.div-form-input {
+    width: 500px;
+    padding: 10px;
+}
+
+.div-link-main {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin: 100px auto;
+}
+
+.div-link-main .div-link-item1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.div-link-main .div-link-item1 .div-link-item1-item {
+
+    border-radius:5px;
+    object-fit: cover;
+    border: 1px solid;
+    flex-basis: 33.33%;
+
+    border: 1px solid #efedf5;
+
+    
+}
+
+
+
+.div-link-main .div-link-item1 .div-link-item1-item img {
+
+    border: none;
+    border-radius:10px;
+    margin-left: 28px;
+    
+}
+
+
+.div-link-main .div-link-item1 .div-link-item1-item a {
+    text-align: center;
+    
+}
+
+
+
+.div-link-main .div-link-item1 .div-link-item1-item img:hover {
+    
+  
+    transform: scale(1.1);
+
+    transition: 1s;
+}
+
+.div-footer1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: white;
+}
+
+
+.div-footer1 div p {
+   
+    margin: 10px 0px;
+}
+
+
+
+.div-footer2 {
+    width: 70%;
+    border-top: 1px solid white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    color: white;
+}
+
+
+.div-footer1 div p {
+   
+    margin: 10px 0px;
+}
+
+
+
+.div-footer2 div p {
+   
+    margin: 10px 0px;
+}
+
+
+.div-main-footer {
+
+    background-color: #bc2228;
+
+}
+
+
+.div-main-footer2 {
+
+    background-color: #bc2228;
+
+    display: flex;
+    justify-content: center;
+
+}
